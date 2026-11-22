@@ -1,0 +1,11 @@
+.env
+.env.*
+/vendor/
+/node_modules/
+/public/app/
+/storage/
+/database/backups/
+/database/demo_data.sql
+/md/
+/tests/route-*.png
+*.log

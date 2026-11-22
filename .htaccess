@@ -1,0 +1,6 @@
+Options -Indexes
+<FilesMatch "(^\.|\.(env|ini|log|sql|bak|key|pem)$)">
+    Require all denied
+</FilesMatch>
+RewriteEngine On
+RewriteRule ^(\.agents|app|config|database|docs|md|node_modules|scripts|src|storage|tests|vendor)/ - [F,L,NC]
